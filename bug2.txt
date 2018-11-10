@@ -1,1 +1,4 @@
 some more bugs found in the website
+login form
+main index
+downloads page
