@@ -21,6 +21,6 @@ helloPerson.Hello();
 //  }
 //  document.write(test(2,5));
 
+export function myfunction(num1){return num1='zayno';}
 
-let myfunction = function(){return 'The result is: ' + 8*5;};
 

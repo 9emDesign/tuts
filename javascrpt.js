@@ -1,4 +1,4 @@
-//jshint esversion:6
+import { myfunction } from "./function.js";
 /*let username= 'Robert'; // variable string
 let age= 50; //variable number
 let person = { //object
@@ -117,11 +117,15 @@ if(hour >=6 && hour <=12){
 // document.write(names(me));
 
 //callback function
-function dosomething(x){
-  return x();
+function dosomething(some) {
+  document.getElementById("demo").innerHTML = some;
 }
 
-document.write(dosomething(myfunction));
+dosomething(myfunction());
+/* function myfunction(){
+  return alert('hello callback');
+} */
+
 
 //javascript exercises for beginners
 // function check100(a,b){

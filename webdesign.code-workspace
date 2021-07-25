@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\website01"
+		},
+		{
+			"path": "..\\website02"
+		},
+		{
+			"path": "..\\website03"
+		},
+		{
+			"path": "..\\website04"
+		},
+		{
+			"path": "..\\website05"
+		},
+		{
+			"path": "..\\website06"
+		},
+		{
+			"path": "..\\website07"
+		},
+		{
+			"path": "..\\website08"
+		}
+	],
+	"settings": {
+		"xd.lastPackage": "c:\\Users\\zayno\\OneDrive\\Documents\\Projects\\tuts\\test",
+		"xd.globalEditor": true,
+		"liveServer.settings.multiRootWorkspaceName": "website07"
+	}
+}
