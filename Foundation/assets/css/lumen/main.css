@@ -1,0 +1,11 @@
+.callout.primary {
+  background-color: coral;
+}
+
+.button {
+  background-color: coral;
+}
+
+input:checked ~ .switch-paddle {
+  background: coral;
+}

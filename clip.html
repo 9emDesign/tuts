@@ -1,19 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-</head>
-<style>
-.clip{background-color:crimson;
-clip-path: polygon(71.58% -3207.68%, 106.51% -3216.99%, 106.37% 110.84%, 53.36% 102.23%);z-index: 10;}
-.z{z-index: 0;background-image: url(img/bg_heading);}
-</style>
-<body>
-	<header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>A modern approach for websites</title>
+    <link rel="stylesheet" href="Foundation/assets/css/foundation.css" />
+  </head>
+
+  <body>
+    <style>
+      body {
+        background-color: #292d3e;
+      }
+      .clip {
+        position: absolute;
+        left: 73%;
+        top: 3%;
+      }
+
+      #welcome {
+        border-radius: 15px;
+      }
+    </style>
+    <!-- 	<header>
 
 		<div class="z"><img src="img/bg_heading.png" alt="test"> </div>
 <article class="clip">.</article>
-	</header>
-</body>
+	</header> -->
+
+    <div class="clip">
+      <svg
+        width="330"
+        height="254"
+        version="1.1"
+        viewBox="0 0 87.3 67.2"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <defs>
+          <clipPath id="clipPath960">
+            <path
+              d="m252 83.4c0 17.9-37 33.3-54.9 33.3s-32.4-14.5-32.4-32.4c0-17.9 8.77-30.5 26.3-33.9 28.3-5.4 60.9 15.2 60.9 33z"
+              style="fill: #04a09b; stroke-width: 3.05pt; stroke: #2f318b"
+            />
+          </clipPath>
+        </defs>
+        <g transform="translate(-165 -49.5)">
+          <image
+            x="163"
+            y="26.8"
+            width="100px"
+            clip-path="url(#clipPath960)"
+            preserveAspectRatio="none"
+            xlink:href="img/profile.jpg"
+          />
+        </g>
+      </svg>
+    </div>
+
+    <div class="reveal" id="welcome" data-reveal>
+      <h1>Awesome. I Have It.</h1>
+      <p class="lead">Your couch. It is mine.</p>
+      <p>
+        I'm a cool paragraph that lives inside of an even cooler modal. Wins!
+      </p>
+      <button
+        class="close-button"
+        data-close
+        aria-label="Close modal"
+        type="button"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <script src="Foundation/assets/js/vendor.js"></script>
+    <script src="Foundation/assets/js/foundation.js"></script>
+    <script>
+      $(document).foundation();
+      $(document).ready(function () {
+        $("#welcome").foundation("open");
+      });
+    </script>
+  </body>
 </html>
